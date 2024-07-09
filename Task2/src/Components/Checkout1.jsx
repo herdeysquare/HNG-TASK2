@@ -18,7 +18,7 @@ const Checkout1 = () => {
         <hr />
         <div className='out-img1'></div>
         <div className='out-img2'></div>  
-        <h3 className='order-sum'>Add New Address</h3>  
+        <h3 className='order-sum add'>Add New Address</h3>  
         <div className='buttons1'> 
     <Button  onClick={changeState}  label="Back"/>
     <BlackButton onClick={toggleState} label="Next" className="orderagain"/>

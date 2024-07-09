@@ -21,6 +21,22 @@
     align-items: center;
     padding:30px;
     gap:40px;
-   
+}
 
+
+
+/* mobile respaonsiveness */
+@media (max-width: 900px) {
+    .out-img1{
+        background-image: url(../images/Steps2.png);
+margin:5vh;
+
+    }
+    .out-img2{
+        background-image: url(../images/Block4.png);
+        height:60vh
+    }
+    .add{
+        display:none
+    }
 }

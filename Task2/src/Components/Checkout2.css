@@ -1,44 +1,97 @@
-.out-img3{
-    background-image: url(../images/Steps1.png);
+.out-img3 {
+  background-image: url(../images/Steps1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 10vh;
+  margin-block: 10vh;
+}
+.payment {
+  display: flex;
+  margin-left: 8vw;
+  padding: 10px;
+}
+.left {
+  background-image: url(../images/LeftSide1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60vh;
+  margin-bottom: 5vh;
+}
+.split-screen {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+}
+.left,
+.right {
+  flex: 1;
+}
+.right1 {
+  background-image: url(../images/Method.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 11vh;
+}
+.right2 {
+  background-image: url(../images/Method1.png);
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 11vh;
+}
+.left1,
+.right1a,
+.right1b, .Payment,
+.buton {
+  display: none;
+}
+
+/* mobile respaonsiveness */
+@media (max-width: 900px) {
+  .out-img3 {
+    background-image: url(../images/Steps2.png);
+    margin: 3vh;
+  }
+  .split-screen {
+    display: none;
+  }
+
+  .left1 {
+    background-image: url(../images/Products.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 75vh;
+  }
+  .payment {
+    display: none;
+  }
+  .right11 {
+    background-image: url(../images/LeftSide3.png);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    height: 10vh;
-    margin-block: 10vh;
-}
-.payment{
-display: flex;
-margin-left:8vw;
-padding:10px
-}
-.left{
-    background-image: url(../images/LeftSide1.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
     height: 60vh;
-    margin-bottom: 5vh;
-  
-}
-.split-screen {
+    border: 1px red;
+  }
+  .Payment {
     display: flex;
-    justify-content: space-between;
-    width:100vw
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 10px;
+    margin-bottom: 10px;
   }
-  .left, .right{
-    flex:1;
+  .buton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    gap: 40px;
   }
-.right1{
-    background-image: url(../images/Method.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 11vh;
-}
-.right2{
-    background-image: url(../images/Method1.png);
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    height: 11vh;
 }
