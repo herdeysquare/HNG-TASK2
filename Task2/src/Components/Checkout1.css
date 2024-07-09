@@ -1,0 +1,26 @@
+.out-img1{
+    background-image: url(../images/Steps.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+    margin-block: 10vh;
+}
+.out-img2{
+    background-image: url(../images/Checkout1Block.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin-bottom: 5vh;
+
+}
+.buttons1{
+    display: flex;
+    justify-content:end;
+    align-items: center;
+    padding:30px;
+    gap:40px;
+   
+
+}

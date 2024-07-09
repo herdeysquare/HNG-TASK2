@@ -1,0 +1,36 @@
+.checkmark{
+    background-image: url(../images/checkout-img.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:40vh;
+    width: 70vw;
+
+}
+.check-img{
+    display: flex;justify-content: center;
+}
+.confirm{
+    display: flex;
+    padding-inline:5vw;
+    padding:60px
+}
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:30px;
+    gap:40px;
+
+}
+
+
+
+
+/* mobile responsiveness */
+
+@media (max-width: 900px) {
+    .confirm{
+        display:none
+    }
+}

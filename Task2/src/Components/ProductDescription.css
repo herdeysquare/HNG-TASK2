@@ -1,0 +1,109 @@
+
+#PD{
+    background-color: #FAFAFA;
+    
+}.desc{
+    display: flex;
+    width:90vw;
+    overflow: hidden;
+    
+}
+#dp-image{
+    display: flex;
+    justify-content: center;
+}
+    .dp-image{
+        background-image: url(../images/Images.png);
+        background-position: center;
+        background-size: cover;
+       background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:85vw;
+    height:100vh;
+}
+.pd-info{
+    background-image: url(../images/Info.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 40vh;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+.info-details{
+width:45vw;
+padding: 100px;
+background-image: url(../images/Details.png);
+background-position: center;
+background-size:cover;
+background-repeat: no-repeat;
+display: flex;justify-content: center;
+align-items: center;
+height: 60vh;
+position: relative;
+left:20vw
+}
+#related{
+    display: flex;
+    padding-inline:20vw
+}
+.related{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+    padding:20px
+}
+.mobileinfo-details,.mobilepd-info{
+    display: none;
+}
+
+
+/* mobile responsiveness */
+
+@media (max-width: 900px) {
+.desc{
+    display:none
+}
+#dp-image{
+    margin:0
+}
+.dp-image{
+    background-image: url(../images/Image.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin: 20px;
+    
+}
+
+.pd-info{
+    background-image: url(../images/mobileInfo.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 70vh;
+    margin: 20px;
+    
+}
+.info-details{
+    background-image: url(../images/mobileDetails.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   width:60vw;
+   height:100vh;
+   padding: 0;
+}
+#related{
+    padding-inline:10vw
+}
+.related{
+    gap:10px;
+    
+}
+}

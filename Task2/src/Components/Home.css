@@ -1,0 +1,227 @@
+#banner {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../images/Banner.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    flex-wrap: wrap;
+}
+#arrow {
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 5vw;
+  padding:40px
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 30px;
+  grid-row-gap: 0px;
+  padding-inline: 5vw;
+  overflow: hidden;
+  flex-wrap: wrap;
+}
+.containercard {
+  height: 45vh;
+  width: 25vw;
+  flex-wrap: wrap;
+}
+.containercard1{
+background-image: url(../images/CategoryCard1.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+cursor: pointer;
+}
+.containercard2{
+    background-image: url(../images/CategoryCard2.png) ;
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+cursor: pointer;
+}
+.containercard3{
+    background-image: url(../images/CategoryCard3.png);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover; 
+cursor: pointer;
+}
+.containercard4{
+    background-image: url(../images/CategoryCard4.png);
+    background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+cursor: pointer;
+}
+.lastcard {
+  width: auto;
+}
+#new {
+  display: flex;
+  padding-inline: 10vw;
+  margin-block: 7vh;
+
+  
+}
+.new {
+  text-decoration: 1px solid underline;
+}
+
+.grid-container{    
+    display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr;
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+       
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    padding-inline:2.5vw
+   }
+#box1, #box3{
+    height:40vh;
+    width:20vw;
+}
+#box2{
+    height:40vh;
+    width:18vw;
+    margin-left:2vw;
+}
+.bigtext{
+    font-size: 33px;
+    font-weight: 300;
+    padding:5px
+}
+.text{
+    display: flex;
+    margin-left:1.8vw;
+  padding:5px
+}
+.p-text{
+    margin-top:0;
+    /* padding:15px */
+}
+.button{
+    width:10vw;
+    margin-left:1.8vw;
+    margin-bottom:4vh;
+    padding:5px;
+    cursor: pointer;
+}
+.box2{
+    background-color:#EAEAEA;
+}
+
+#banner2{
+    background-image: url(../images/Banner2.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height:70vh
+}
+.radio{display: none;}
+
+
+
+
+
+
+/* mobile responsiveness */
+
+@media (max-width: 900px) {
+    *{
+        margin:0;
+        padding:0
+    }
+  #banner {
+    background-image: url(../images/MobileviewBanner.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  #arrow {
+    display: flex;
+    justify-content: space-between;
+    /* margin-block:5vh */
+  }
+  .shop{
+    font-size: large;
+    
+  }
+  .arr{
+    height:5vh;
+    width:10vw;
+
+  }
+  .containercard3, .containercard4{
+    display: none;;
+  }
+  .containercard {
+    height: 25vh;
+    width: 40vw;
+    border-radius: 10px;
+  }
+  .grid-container{
+    display: flex;
+    justify-content: center;
+  }
+ 
+  #box1{
+    display: flex;
+    justify-content: center;
+    width:100%
+  }
+.box2, .box3{
+    display:none;
+}
+.box1{
+    display: flex;
+    align-items: center; 
+}
+.bigtext{
+    font-size: 49px;
+}
+.text{
+   margin:0;
+   padding:0;
+}
+.p-text{
+    align-items: center;
+    font-size:18px;
+    padding-inline: 3vw;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    width:40vw;
+
+}
+#banner2{
+background-image:url(../images/MobileViewBanner2.png);
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+}
+.radio{
+display:block;
+cursor:pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-bottom:3vh
+}
+
+
+
+}

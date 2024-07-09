@@ -1,0 +1,44 @@
+.out-img3{
+    background-image: url(../images/Steps1.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 10vh;
+    margin-block: 10vh;
+}
+.payment{
+display: flex;
+margin-left:8vw;
+padding:10px
+}
+.left{
+    background-image: url(../images/LeftSide1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+    margin-bottom: 5vh;
+  
+}
+.split-screen {
+    display: flex;
+    justify-content: space-between;
+    width:100vw
+  }
+  .left, .right{
+    flex:1;
+  }
+.right1{
+    background-image: url(../images/Method.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 11vh;
+}
+.right2{
+    background-image: url(../images/Method1.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 11vh;
+}

@@ -1,0 +1,29 @@
+.custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:white;
+    cursor: pointer;
+    width:15vw
+  }
+
+
+  
+  .button-icon {
+    margin-right: 8px;
+    width: 20px;
+    height: 20px;
+  }
+  
+
+
+
+
+  /* mobile respaonsiveness */
+  @media (max-width: 900px) {
+    .custom-button{
+      width:35vw
+    }
+  }

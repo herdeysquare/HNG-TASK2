@@ -1,0 +1,33 @@
+.custom-button2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 5px;
+    background-color:black;
+    cursor: pointer;
+    color:white;
+  width:15vw
+  }
+
+
+
+
+
+/* mobile respaonsiveness */
+  @media (max-width: 900px) {
+    .custom-button2{
+      width:35vw
+    }
+  }
+
+  /* @media (max-width: 400px) {
+    .custom-button2{
+      width:50vw
+    }
+  } */
+
+
+  
+  
+  
